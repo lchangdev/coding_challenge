@@ -1,0 +1,371 @@
+/*global*/
+
+html, body {
+	height:100%;
+	font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #409640;
+}
+
+a:hover {
+	color: #2D692D;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	font-size: .750em;
+	line-height: 180%;
+	letter-spacing: .8px;
+}
+
+h2 {
+	font-size: .900em;
+}
+
+#next {
+	font-size: 1.500em;
+}
+
+a[href*="http:"] {
+	text-decoration: underline;
+}
+
+a[class^="btn"] {
+	color: #FFFFFF;
+}
+
+/*homepage*/
+
+.homepage,
+.overlay,
+.overlay table {
+	height: 100%;
+}
+
+.homepage{
+	background-color: #CCCCCC;
+	float: left;
+}
+
+.overlay {
+	float: left;
+}
+
+.overlay table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+
+
+/*left home*/
+
+.left-screen {
+	background-color: #151515;
+	height: 100%;
+	float: left;
+}
+
+#header,
+#tagline-container {
+	text-align: center;
+	height: 50%;
+	display: table;
+}
+
+#header{
+	font-size: 1.000em;
+}
+
+#header h1,
+#tagline-container p {
+	display:table-cell;
+	color: #FFFFFF;
+	font-weight: 100;
+}
+
+#tagline-1,
+#tagline-2 {
+	height: 50%;
+	display:table;
+}
+
+#header h1 {
+	vertical-align: middle;
+}
+
+.btn {
+	padding: 10px 15px;
+	color: #D1D1D1;
+	border-radius: 10px;
+	border: 1px solid #D1D1D1;
+	font-weight: 100;
+	font-size: .750em;
+}
+
+a.btn {
+	text-decoration: none;
+}
+
+.btn:hover {
+	opacity: 0.5;
+}
+
+/*right home*/
+
+.right-screen {
+	float: left;
+	background: #FFFFFF;
+	height: 100%;
+}
+
+#name,
+.nav-container {
+	display: table;
+	height: 50%;
+	text-align: center;
+}
+
+#name {
+	font-size: 1.000em;
+}
+
+#name h1 {
+	display:table-cell;
+	vertical-align: middle;
+}
+
+.nav-container table {
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-container td {
+	width: 100%;
+	border-top: 1px solid #D1D1D1;
+	border-bottom:  1px solid #D1D1D1;
+	padding: 8px 0 8px 0;
+	font-size: .700em;
+}
+
+
+/*photography page*/
+
+.photography,
+.photography-info,
+.photography-info table {
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photography {
+	float: left;
+	border-top: 1px solid #D1D1D1;
+}
+
+.photography-info {
+	float:left;
+	display: table;
+}
+
+.photography-info table {
+	text-align: center;
+	vertical-align: middle;
+	font-size: .800em;
+}
+
+#td-b {
+	border-top: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	padding: 8px 0 8px 0;
+}
+
+#photography_1,
+#photography_2 {
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#photography_1 {
+	background-image:url('images/dj5.jpg');
+}
+
+#photography_2 {
+	background-image:url('images/lawrence-chang-2.jpg');
+}
+
+/*about page*/
+
+.about,
+.half-column,
+.self-picture {
+	float: left;
+	height: 100%;
+}
+
+.about {
+	border-top: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	overflow: auto;
+}
+
+.half-column img {
+	border-bottom: 1px solid #D1D1D1;
+	border-right: 1px solid #D1D1D1;
+}
+
+#about-section {
+	padding-left: 5%;
+}
+
+.self-picture {
+	display: table;
+}
+
+.self-picture table {
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	vertical-align: middle;
+	height: 80%;
+}
+
+.self-picture td img{
+  border-radius: 100%;
+  height: 18em;
+  width: 20em;
+}
+
+.self-picture td:last-child {
+	border-top: 1px solid #D1D1D1;
+}
+
+
+/*Letter of Thanks*/
+
+.lot-container,
+#lot-1,
+#lot-2,
+#lot-3 {
+	height: 100%;
+	text-align: center;
+}
+
+#lot-1,
+#lot-2,
+#lot-3 {
+	float: left;
+	display: table;
+}
+
+#lot-1 a,
+#lot-3 a {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.lot-container {
+	float: left;
+}
+.lot-container p {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 180%;
+	letter-spacing: .8px;
+}
+
+.lot-container span {
+	font-size: 4.000em;
+}
+
+/*contact section*/
+.contact-info,
+#contact-bottom {
+	display: table;
+	text-align: center;
+}
+
+.contact-info {
+	float: left;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact-top {
+	float: top;
+	height: 50%;
+	background-image: url('images/contact-photo.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+#contact-bottom {
+	float: bottom;
+	height: 50%;
+	vertical-align: middle;
+	margin-top: 2%;
+}
+
+#contact-bottom img {
+	border: 1px solid #D1D1D1;
+}
+
+#contact-bottom p {
+	font-size: 3.4375em;
+	color: #000000;
+}
+
+/*blog page*/
+
+
+.blog-nav,
+.blog-scroll,
+.blog-body,
+.blog-area {
+	height: 100%;
+	display: table;
+	text-align: center;
+}
+
+.blog-scroll p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.blog-area p {
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 180%;
+	letter-spacing: .8px;
+}
+
+.blog-nav img {
+	border-bottom: 1px solid #D1D1D1;
+	border-right: 1px solid #D1D1D1;
+}
+
+
